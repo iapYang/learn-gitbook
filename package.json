@@ -4,7 +4,8 @@
   "description": "markdown to html with code running",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "gitbook init",
+    "serve": "gitbook serve"
   },
   "repository": {
     "type": "git",

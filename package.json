@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "init": "gitbook init",
-    "serve": "gitbook serve"
+    "serve": "gitbook serve",
+    "build": "gitbook build",
+    "gh": "gitbook build && node gh"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/iapYang/markdown-html#readme",
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "gitbook-cli": "^2.3.2",
     "gitbook-plugin-jsfiddle": "^1.0.0"
   }

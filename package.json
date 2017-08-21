@@ -1,0 +1,22 @@
+{
+  "name": "markdown-html",
+  "version": "0.0.0",
+  "description": "markdown to html with code running",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://iapyang@github.com/iapYang/markdown-html.git"
+  },
+  "author": "iapyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iapYang/markdown-html/issues"
+  },
+  "homepage": "https://github.com/iapYang/markdown-html#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
